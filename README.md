@@ -1,3 +1,4 @@
+![](https://github.com/rafatga/stadium-hub-infra/blob/main/doc/img/diagram.png)
 ![](https://github.com/rafatga/stadium-hub-infra/blob/main/doc/img/hero.gif)
 
 # Stadium Hub (Local) Infrastructure
