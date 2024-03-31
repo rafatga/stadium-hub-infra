@@ -1,3 +1,5 @@
+![](https://github.com/rafatga/stadium-hub-infra/blob/main/doc/img/hero.gif)
+
 # Stadium Hub (Local) Infrastructure
 No need to manually clone them follow [Installation](#Installation) steps
 ```
