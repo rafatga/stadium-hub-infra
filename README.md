@@ -42,4 +42,7 @@ This command will stop all projects
 ```
 make stop
 ```
+## Result 
+![](https://github.com/rafatga/stadium-hub-infra/blob/main/doc/img/stadium-hub.png)
+![](https://github.com/rafatga/stadium-hub-infra/blob/main/doc/img/stadium-hub-docker.png)
 
