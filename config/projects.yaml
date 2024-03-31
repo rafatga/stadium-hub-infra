@@ -1,0 +1,13 @@
+hubs:
+  -
+    url: "git@github.com:rafatga/stadium-hub-api.git"
+    dirname: stadium-hub-api
+    branchname: main
+  -
+    url: "https://github.com/rafatga/stadium-hub-panel"
+    dirname: stadium-hub-panel
+    branchname: main
+  -
+    url: "git@github.com:rafatga/stadium-hub-front.git"
+    dirname: stadium-hub-front
+    branchname: main
