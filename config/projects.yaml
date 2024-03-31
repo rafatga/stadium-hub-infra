@@ -1,3 +1,5 @@
+infra:
+  name: stadium-hub-infra-proxy
 hubs:
   -
     url: "git@github.com:rafatga/stadium-hub-api.git"

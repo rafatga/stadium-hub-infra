@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   traefik:
-    container_name: "traefik-stadium-hub-infra"
+    container_name: "traefik-stadium-hub-infra-proxy"
     restart: unless-stopped
     image: traefik:v2.5
 #    extra_hosts:

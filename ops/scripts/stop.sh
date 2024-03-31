@@ -22,5 +22,5 @@ for hub in $hubs_; do
   make -C "./code/$DIRECTORY/" stop
 done
 
-docker-compose -p ${network_global_name} -f docker-compose.yml kill
-docker-compose -p ${network_global_name} -f docker-compose.yml rm -f
+docker-compose -p ${infra_name} -f docker-compose.yml kill
+docker-compose -p ${infra_name} -f docker-compose.yml rm -f

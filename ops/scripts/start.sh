@@ -29,7 +29,7 @@ Projects numbers (example: 1 2): " && read -r INPUT
 
 SELECTEDPROJECTS=( "$INPUT" )
 
-docker-compose -p ${network_global_name} -f ./docker-compose.yml up -d --build
+docker-compose -p ${infra_name} -f ./docker-compose.yml up -d --build
 
 for PROJECT_INDEX in $SELECTEDPROJECTS; do
   hub_dirname_key="hubs_${PROJECT_INDEX}_dirname"
