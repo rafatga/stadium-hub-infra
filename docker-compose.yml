@@ -20,7 +20,7 @@ services:
       # The volumes: You can see the first three are mapping local files / directories to locations on the Traefik container. This includes a traefik.yml, a config.yml and a certs directory (in case we want to create / use real certs, we can include them in this directory). I’d strongly recommend reviewing both the traefik.yml and config.yml to see the syntax Traefik is using to accomplish our HTTPS termination.
       - ./traefik/traefik.yml:/etc/traefik/traefik.yml:ro
       - ./traefik/config.yml:/etc/traefik/config.yml:ro
-      - ./certs:/etc/certs:ro
+#      - ./certs:/etc/certs:ro
       # Why? Traefik needs access to the docker daemon’s socket. Traefik uses this to listen for starting / stopping containers, and to inspect their labels for Traefik instructions.
       - /var/run/docker.sock:/var/run/docker.sock
 
